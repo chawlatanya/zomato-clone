@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+  <title>tomato</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style type="text/css">
+body{
+	/*background-color: #f1f5f7;*/
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.btn1{
+	float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+    color:#FFF;
+}
+.btn{
+	margin-right:20px;
+}
+.logo{
+	height:120px;
+	width:120px;
+	margin:0 auto;
+	margin-top: 45px;
+	text-align:center;
+	padding:20px 10px;
+	background-color: #B22222	;
+	color: #FFF;
+	border-radius:4px;
+}
+.header{
+background-image: url("order_background.jpg");
+background-size: cover;
+height:450px;
+}
+.sub_header{
+	color: rgba(255,255,255,.9);
+    font-size: 20px;
+    margin-top: 5px;
+}
+.text-center{
+	font-size: 30px;
+	margin-top: 35px;
+}
+form{
+	margin-left:20%;
+	margin-top: 55px;
+}
+.col-xs-6{
+	margin-right: 10px;
+}
+.mid{
+	margin-top: 45px;
+}
+.mid_heading{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	margin-top: 30px;
+}
+.mid_sub_heading{
+	text-align: center;
+	font-size: 18px;
+
+}
+.cap{
+	text-align:center;
+	font-size: 18px;
+	margin-top: 30px;
+}
+.wrapper{
+	background-color: #fafafa;;
+}
+.sub_text{
+	font-size:18px;
+	text-align: left;
+}
+.iconn{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.iconn1{
+	margin-left: -100px;
+}
+
+.logo1{
+	height:60px;
+	width:60px;
+	margin:0 120px;
+	margin-top: 45px;
+	text-align:center;
+	padding:20px 10px;
+	background-color: #B22222	;
+	color: #FFF;
+	border-radius:4px;
+	}
+		ul{
+		margin:0 auto;
+		list-style-type: none;
+	}
+	li{
+		margin:9px;
+		color:black;
+	}
+	a{
+		color: black;
+		text-decoration: none;
+	}
+	a:hover{
+		text-decoration: none;
+		color: black;
+	}
+.footer{
+
+    background-color: #282C35;
+    border-top: 1px solid #eee;
+   	}
+	.footer_divider{
+		border-top:1px solid #3C3F46	;
+		width:1140px;
+		margin: 5px auto;
+	}
+	.footer_bottom li{
+		float:left;
+	}
+	.footer li{
+		color: #cdcdcd;
+	}
+	.footer h3{
+		color:#ADB0B6;
+		font-weight: 700;
+		font-size: 18px;
+	}
+	.footer_list{
+		height: 35px;
+    padding-left: 55px;
+	}
+
+</style>
+</head>
+<body>
+	<div class="header">
+		<div class="row">
+			<div class="btn1">
+			<button type="button" class="btn btn-default">Log in</button>
+			<button type="button" class="btn btn-default">Create an account</button>
+		    </div>
+		</div>
+	
+	<div class="middle">
+
+		<div class="logo">
+			<h3 style="font-size: 30px;">tomato</h3>
+		</div>
+		<div class="text-center">
+			<h1 style="font-size: 30px; margin-top: 50px; color:#FFF; font-weight: 600;">Order food online from the best restaurants in Delhi NCR</h1>
+			<div class="sub_header">
+				Enter your delivery location to get started
+			</div>
+		</div>
+		<form>
+			<div class="col-xs-6" style="padding-left: 90px;margin-top: -30px;">
+				<div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-send"></i></span>
+					<input type="text-box" class="form-control" id="loc" placeholder="Type delivery location here..." style="min-height: 45px;">	
+				</div>
+				<button type="button" class="btn btn-danger" style="margin-left: 460px;margin-top: -70px; min-height: 45px; width: 120px; font-size: 17px;">Find Food</button>
+			</div>
+	</form>
+	</div>
+	</div>
+
+	<div class="mid" style="background-color: white;">
+		<div class="mid_heading">
+				How Tomato Order Works
+		</div>
+		<div class="mid_sub_heading">
+			    Ordering food online has never been this easy
+		</div>
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="food.png" id="icon">
+					<div class="cap"><b>Explore restaurants</b> that<br>deliver to your doorstep</div>
+				</div>
+				<div class="col-sm-4">
+					<img src="menu.png" id="icon">
+					<div class="cap">Browse menus and <b>build<br> your order</b> in seconds</div>
+				</div>
+				<div class="col-sm-4">
+					<img src="notif.png" id="icon">
+					<div class="cap">Follow the status of your<br> order with <b>real-time alerts</b></div>
+				</div>
+	  		</div>
+   		</div>
+   	</div>
+<div class="wrapper">
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-lg-6">
+				<img src="mobile1.png" width="300px" height="282.78px" class="iconn">
+			</div>
+			<div class="col-lg-6 iconn1">
+				<h2 style="font-weight: 400; text-align: left; font-size: 26px;">Download the Tomato Order App!</h2>
+				<div class="sub_text">Get real-time order updates, live chat support,<br> and exclusive app-only offers.</div>
+				<div class="row">
+					<div class="col-lg-6 text-left">
+						<img src="app-store.png" width="121.36px" height="36px" >
+					</div>
+					<div class="col-lg-6 text-left">
+						<img src="play-store.png"  width="103.19px" height="36px" style="margin-left: -150px;">
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="footer" style="min-height: 700px;">
+			<div class="wrap">
+				<div class="row">
+					<div class="col-m-10" style="width: 725px;">
+						<div class="logo1">
+							<h3 style="font-size: 15px; margin:3px -5px">tomato</h3>
+						</div>
+					</div>
+					<div class="col-m-6" style= "margin-top: -40px; margin-left: 1000px; width: 1200px;">
+						<div class="form-group" style="margin-left: 70px;">
+							<div class="input-group col-xs-2">
+								<span class="input-group-addon"> <i class="glyphicon glyphicon-globe"></i></span>
+									<select class="form-control">
+										<option>English</option>
+										<option>Cestina</option>
+										<option>Espanol</option>
+										<option>Indonesian</option>
+										<option>Italian</option>
+										<option>Polish</option>
+										<option>Postugues(BR)</option>
+										<option>Portugues(PT)</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="footer_divider">
+			</div>
+
+			<div class="row">
+				<div class="col-m-4" style="padding-left: 90px;">
+					<h3 style="padding-left: 47px;">About Tomato</h3>
+					<ul class="footer_links-1">
+						<li>About Us</li>
+						<li>Culture</li>
+						<li>Blog</li>
+						<li>Careers</li>
+						<li>Contact</li>
+					</ul>
+				</div>
+				<div class="col-m-5" style=" margin-top: -186px; margin-left: 360px;">
+					<h3 style="padding-left: 47px;">For Foodies</h3>
+					<ul class="footer-links-2">
+						<li>Code Of Conduct</li>
+						<li>Community</li>
+						<li>Verified Users</li>
+						<li>Blogger Help</li>
+						<li>developer</li>
+						<li>Mobile Apps</li>
+					</ul>
+				</div>
+				<div class="col-m-5" style="margin-top: -215px;margin-left: 860px;">
+					<h3 style="padding-left: 45px;">For Restaurants</h3>
+					<ul class="footer-links-3">
+						<li>Add a Restaurant</li>
+						<li>Claim your listing</li>
+						<li>Business App</li>
+						<li>Business Owner Guidelines</li>
+						<li>Buisness Blog</li>
+						<li>Restaurant Widget</li>
+						<li>Products for Business</li>
+					</ul>
+				</div>					
+		    </div>
+
+		    <div class="footer_divider">
+			</div>
+
+			<div class="footer_list">
+   
+				<ul class="footer_bottom">
+					<li>Privacy</li>
+					<li>Terms</li>
+					<li>API Policy</li>
+					<li>CSR</li>
+					<li>Security</li>
+					<li>Sitemap</li>
+				</ul>	
+
+			</div>
+
+			<div class="footer_divider"></div>		
+        </div>
+
+
+
+			
+
+
+
+
+
+
+</body>
+</html>
